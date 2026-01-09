@@ -23,3 +23,5 @@ eth_retry>=0.1.1
 eth-hash[pysha3]
 python-telegram-bot==13.15
 ypricemagic==1.10.34
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
